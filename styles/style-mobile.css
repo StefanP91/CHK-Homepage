@@ -1,0 +1,450 @@
+@media (max-width: 435px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+
+    .spots {
+        display: none !important;
+    }
+
+    .nav {
+        padding: 0 !important;
+        margin-top: 0 !important;
+        background-color: white !important;
+
+        & .nav-item{
+            text-align: center !important;
+        }
+    }
+
+    /* MAIN */
+    #hero{
+        padding: 20% 0 10% 0;
+
+        & .hero-inner{
+            .left-side{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px;
+                height: 100%;
+                margin-bottom: 5%;
+
+                & h1{
+                    font-size: 36px;
+                }
+
+                & p{
+                    font-size: 16px;
+                }
+
+                & button{
+                    width: 100%;
+                    padding: 2%;
+                }
+
+                & .best-deals{
+                    font-size: 16px;
+                }
+
+            }
+        }
+    }
+
+    #academies{
+        & .intro{
+            & h1{
+                font-size: 32px;
+                text-align: center;
+            }
+
+            & p{
+                font-size: 20px;
+                text-align: center;
+            }
+
+            & .trophy-text{
+                font-size: 18px;
+            }
+        }
+
+        & .academies-container{
+            & .card{
+                padding: 0 5% 5% 5%;
+
+                & .new{
+                    font-size: 14px;
+                }
+
+                & .top{
+
+                    & h2{
+                        font-size: 24px;
+                    }
+                }
+
+                & .middle{
+                    & p{
+                        font-size: 16px;
+                    }
+                }
+
+                & .bottom{
+                    margin-top: 3%;
+
+                    & .price{
+                        font-size: 24px;
+                    }
+
+                    & .apply-now-text{
+                        font-size: 16px;
+                    }
+                } 
+            }
+        }
+    }
+
+    #techSchool{
+        background-color: #F7F7F7;
+        padding: 5% 0;
+
+        & h1{
+            font-size: 32px;
+        }
+
+        & .card{
+
+            & img{
+                width: 40px;
+                height: 40px; 
+            }
+
+            & h6{
+                font-size: 18px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+
+        }
+    }
+
+    #ourCommunity{
+        & .left-side{
+            & span{
+                font-size: 16px;
+            }
+
+            & h1{
+                font-size: 32px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+
+            & button{
+                width: 100%;
+                padding: 2% 2%;
+                margin-bottom: 10%;
+            }
+        }
+
+        & .right-side{
+            & img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    #careerLaunchpad{
+        & span{
+            font-size: 16px;
+        }
+
+        & h1{
+            font-size: 32px;
+        }
+
+        & p{
+            font-size: 16px;
+        }
+    }
+
+    #companyPartnership{
+        & h1{
+            font-size: 32px;
+        }
+    }
+
+    #successStories{
+        padding: 5% 4%;
+        & .intro{
+            & h1{
+                font-size: 32px;
+            }
+
+            & p{
+                font-size: 16px;
+                color: #071336;
+                font-weight: 500;
+            }
+        }
+
+        #successStoriesCarousel{
+
+            & .img-container{
+                margin: 0 auto;
+            }
+
+            & .card{
+                padding: 5%;
+                border-top: 6px solid #18478B;
+                border-left: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: fit-content;                
+
+                & .vstack{
+                    justify-content: center;
+                    align-items: center;
+
+                    & .person-name{
+                        font-size: 18px;
+                    }
+
+                    & span{
+                        font-size: 16px;
+                    }
+                }
+            }  
+        }
+
+        & .carousel-control-btn{
+            justify-content: center;
+            margin-top: 5%;
+
+            & .carousel-control-prev, .carousel-control-next{
+                position: static;
+            }
+        }
+    }
+
+    #meetTheInstructors{
+        padding: 5% 3%;
+
+        & .intro{
+            & h2 {
+                font-size: 32px;
+            }
+
+            & p{
+                font-size: 18px;
+            }
+        }
+
+        & .instructor-rating{
+            & p{
+                font-size: 36px;
+            }
+
+            & span{
+                font-weight: 16px;
+            }
+        }
+
+        & .skills{
+            span{
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+
+        #instructorsCarouselMobile{
+
+            & .card{
+                height: 100%;
+                border: none;
+
+                & .img-container{
+                    position: relative;
+                    width: 100%;
+                    height: fit-content;
+
+                    & .instructor-img{
+                        width: 100%;
+                    }
+
+                    & .instructor-linkedin{
+                        position: absolute;
+                        bottom: 15px;
+                        left: 15px;
+                    }
+
+                    & .instructor-linkedin:hover{
+                        cursor: pointer;
+                        transform: scale(1.1);
+
+                    }
+                }
+
+                & .card-body{
+                    padding-left: 0;
+                    display: flex;
+                    flex-direction: column;
+                    
+                    & .card-title{
+                        color: #071336;
+                        font-size: 22px;
+                        font-weight: 800;
+                        text-wrap: nowrap;
+                    }
+            
+                    & .card-text{
+                        color: rgba(7, 19, 54, 0.81);
+                        font-size: 16px;
+                        text-wrap: nowrap;
+                    }
+
+                    & p:last-of-type{
+                        margin-top: auto;
+                    }
+                }
+            }
+
+        }
+
+        & .carousel-control-btn{
+            justify-content: center;
+            margin-top: 5%;
+
+            & .carousel-control-prev, .carousel-control-next{
+                position: static;
+            }
+        }
+    }
+
+    #aiForBusiness{
+        padding: 5% 0;
+
+        & .left-side{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            height: 100%;
+
+            & span{
+                font-size: 16px;
+            }
+
+            & h2{
+                font-size: 32px;
+                text-wrap: wrap;
+            }
+
+            & p{
+                font-size: 16px;
+                text-wrap: wrap;
+            }
+
+            & button{
+                padding: 2%;
+                width: 100%;
+                margin-bottom: 5%;
+            }
+        }
+
+        & .right-side{
+            left: 0;
+
+            & img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+
+    #future{
+        padding: 5% 0;
+
+        & .future-inner{
+            background-image: url('../images/future-bg-mobile.png');
+
+            & .left-side{
+                text-align: center;
+
+                & h2{
+                    font-size: 32px;
+                }
+
+                & .top-text{
+                    font-size: 16px;
+                }
+
+                & .middle-text{
+                    font-size: 16px;
+                }
+
+                & .bottom-text{
+                    font-size: 16px;
+                }
+
+                & a, button{
+                    width: 100%;
+                }
+            }
+
+            & .right-side{
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                & .flaka-img{
+                    margin-top: 0;
+                    width: 77px;
+                    height: 77px;
+                }
+
+                & .arlind-img{
+                    margin-top: 0;
+                    width: 77px;
+                    height: 77px;
+                }
+            }
+        }
+    }
+
+    /* FOOTER */
+    footer{
+    & .footer {
+        padding:5%;
+        background-color: #FFFFFF;
+        border-top: 1px solid #07133624
+    }
+
+    & h3{
+        font-size: 18px;
+    }
+
+    & a p{
+        font-size: 14px;
+    }
+
+    & .careers-text{
+        font-size: 14px;
+    }
+
+    & .careers-text span{
+        font-weight: 700;
+    }
+
+    & .subfooter{
+        font-size: 12px;
+    }
+    }       
+}
